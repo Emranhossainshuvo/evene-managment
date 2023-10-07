@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -22,7 +22,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div>
-                <a className="normal-case text-xl font-mono">Flow Motion</a>
+                    <a className="normal-case text-xl font-mono">Flow Motion</a>
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex">
@@ -31,7 +31,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn bg-slate-600 text-white">Login</a>
+                <Link to="/login"><a className="btn btn-neutral text-white">Login</a></Link>
             </div>
         </div>
     );

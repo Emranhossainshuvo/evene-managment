@@ -1,58 +1,66 @@
 [
     {
         "id": 1,
-        "img": "https://example.com/event1.jpg",
-        "title": "Yoga Retreat",
+        "img": "https://i.ibb.co/T07BKpp/serene-peaceful-people-meditating-park.jpg",
+        "name": "Yoga Retreat",
         "price": 299.99,
-        "description": "Join us for a rejuvenating yoga retreat in a serene natural setting. This event is designed to help you relax, unwind, and enhance your inner peace."
+        "description": "Join us for a rejuvenating yoga retreat in a serene natural setting. This event is designed to help you relax, unwind, and enhance your inner peace.",
+        "short_description": "Rejuvenate in a serene setting."
     },
     {
         "id": 2,
-        "img": "https://example.com/event2.jpg",
-        "title": "Fitness Bootcamp",
+        "img": "https://i.ibb.co/qYBPvq4/front-view-people-training-together-gym.jpg",
+        "name": "Fitness Bootcamp",
         "price": 199.99,
-        "description": "Get ready to sweat it out in our high-intensity fitness bootcamp. Challenge yourself with dynamic workouts and achieve your fitness goals."
+        "description": "Get ready to sweat it out in our high-intensity fitness bootcamp. Challenge yourself with dynamic workouts and achieve your fitness goals.",
+        "short_description": "Sweat it out in bootcamp."
     },
     {
         "id": 3,
-        "img": "https://example.com/event3.jpg",
-        "title": "Mindful Meditation Workshop",
+        "img": "https://i.ibb.co/KFbM3ML/14328853-5470422.jpg",
+        "name": "Meditation Workshop",
         "price": 49.99,
-        "description": "Learn the art of mindfulness and meditation in this workshop. Discover techniques to reduce stress, increase focus, and find inner balance."
+        "description": "Learn the art of mindfulness and meditation in this workshop. Discover techniques to reduce stress, increase focus, and find inner balance.",
+        "short_description": "Learn meditation techniques."
     },
     {
         "id": 4,
-        "img": "https://example.com/event4.jpg",
-        "title": "Yoga for Beginners",
+        "img": "https://i.ibb.co/VH8cNjT/beautiful-young-girl-make-yoga-exercises-floor.jpg",
+        "name": "Yoga for Beginners",
         "price": 79.99,
-        "description": "New to yoga? Join our 'Yoga for Beginners' program and start your journey to a healthier, more flexible you."
+        "description": "New to yoga? Join our 'Yoga for Beginners' program and start your journey to a healthier, more flexible you.",
+        "short_description": "Start your yoga journey."
     },
     {
         "id": 5,
-        "img": "https://example.com/event5.jpg",
-        "title": "Outdoor Yoga Retreat",
+        "img": "https://i.ibb.co/HB4NqKK/photo-young-ladies-standing-bridge-poses-while-training-yoga-together-outdoors-two-women-practicing.jpg",
+        "name": "Outdoor Yoga",
         "price": 249.99,
-        "description": "Experience yoga amidst nature's beauty. Our outdoor yoga retreat combines tranquility with the joy of outdoor practice."
+        "description": "Experience yoga amidst nature's beauty. Our outdoor yoga retreat combines tranquility with the joy of outdoor practice.",
+        "short_description": "Experience yoga outdoors."
     },
     {
         "id": 6,
-        "img": "https://example.com/event6.jpg",
-        "title": "Pilates Fusion Class",
+        "img": "https://i.ibb.co/rdGr0P7/stan-georgiev-pv-Nx-RUq7-O7-U-unsplash.jpg",
+        "name": "Pilates Fusion",
         "price": 129.99,
-        "description": "Combine the core-strengthening power of Pilates with other fitness disciplines in our Pilates Fusion Class."
+        "description": "Combine the core-strengthening power of Pilates with other fitness disciplines in our Pilates Fusion Class.",
+        "short_description": "Strengthen with Pilates Fusion."
     },
     {
         "id": 7,
-        "img": "https://example.com/event7.jpg",
-        "title": "Yoga and Nutrition Workshop",
+        "img": "https://i.ibb.co/kKScNtG/lifestyle-beautiful-girl-during-yoga-exercise.jpg",
+        "name": "Yoga & Nutrition",
         "price": 59.99,
-        "description": "Discover the importance of nutrition in your yoga practice. This workshop offers insights into nourishing your body and soul."
+        "description": "Discover the importance of nutrition in your yoga practice. This workshop offers insights into nourishing your body and soul.",
+        "short_description": "Explore nutrition in yoga."
     },
     {
         "id": 8,
-        "img": "https://example.com/event8.jpg",
-        "title": "Meditation and Stress Relief Retreat",
+        "img": "https://i.ibb.co/qpBcdZk/young-beautiful-woman-doing-yoga-nature.jpg",
+        "name": "Meditation Retreat",
         "price": 349.99,
-        "description": "Escape from the daily grind and join us for a meditation and stress relief retreat. Find inner peace and relaxation."
+        "description": "Escape from the daily grind and join us for a meditation and stress relief retreat. Find inner peace and relaxation.",
+        "short_description": "Escape & find inner peace."
     }
 ]
