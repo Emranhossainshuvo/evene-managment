@@ -3,8 +3,8 @@
 const Banner = () => {
     return (
 
-        <div className="hero mt-5 rounded-2xl my-28 min-h-[80vh] shadow-xl shadow-slate-500" style={{ backgroundImage: 'url(https://c0.wallpaperflare.com/preview/56/956/1001/yoga-zen-meditating-pose.jpg)' }}>
-            <div className="hero-overlay rounded-2xl bg-opacity-60"></div>
+        <div className="hero mt-5 rounded-md my-28 min-h-[80vh] shadow-xl shadow-slate-500" style={{ backgroundImage: 'url(https://i.ibb.co/kxxzt1w/3d-female-yoga-pose-african-landscape-with-sunset-sky.jpg)' }}>
+            <div className="hero-overlay rounded-md bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-md">
                     <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
