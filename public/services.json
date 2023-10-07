@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "img": "https://example.com/event1.jpg",
+        "title": "Yoga Retreat",
+        "price": 299.99,
+        "description": "Join us for a rejuvenating yoga retreat in a serene natural setting. This event is designed to help you relax, unwind, and enhance your inner peace."
+    },
+    {
+        "id": 2,
+        "img": "https://example.com/event2.jpg",
+        "title": "Fitness Bootcamp",
+        "price": 199.99,
+        "description": "Get ready to sweat it out in our high-intensity fitness bootcamp. Challenge yourself with dynamic workouts and achieve your fitness goals."
+    },
+    {
+        "id": 3,
+        "img": "https://example.com/event3.jpg",
+        "title": "Mindful Meditation Workshop",
+        "price": 49.99,
+        "description": "Learn the art of mindfulness and meditation in this workshop. Discover techniques to reduce stress, increase focus, and find inner balance."
+    },
+    {
+        "id": 4,
+        "img": "https://example.com/event4.jpg",
+        "title": "Yoga for Beginners",
+        "price": 79.99,
+        "description": "New to yoga? Join our 'Yoga for Beginners' program and start your journey to a healthier, more flexible you."
+    },
+    {
+        "id": 5,
+        "img": "https://example.com/event5.jpg",
+        "title": "Outdoor Yoga Retreat",
+        "price": 249.99,
+        "description": "Experience yoga amidst nature's beauty. Our outdoor yoga retreat combines tranquility with the joy of outdoor practice."
+    },
+    {
+        "id": 6,
+        "img": "https://example.com/event6.jpg",
+        "title": "Pilates Fusion Class",
+        "price": 129.99,
+        "description": "Combine the core-strengthening power of Pilates with other fitness disciplines in our Pilates Fusion Class."
+    },
+    {
+        "id": 7,
+        "img": "https://example.com/event7.jpg",
+        "title": "Yoga and Nutrition Workshop",
+        "price": 59.99,
+        "description": "Discover the importance of nutrition in your yoga practice. This workshop offers insights into nourishing your body and soul."
+    },
+    {
+        "id": 8,
+        "img": "https://example.com/event8.jpg",
+        "title": "Meditation and Stress Relief Retreat",
+        "price": 349.99,
+        "description": "Escape from the daily grind and join us for a meditation and stress relief retreat. Find inner peace and relaxation."
+    }
+]
