@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../../Providers/AuthProviderContext";
+import "./navBar.css"
 
 
 const Navbar = () => {
@@ -50,7 +51,7 @@ const Navbar = () => {
                         <button onClick={handleSignOut} className="btn btn-neutral text-white">Log out</button>
                         :
                         <Link to="/login">
-                            <button className="btn btn-neutral text-white">Login</button>
+                            <button className="btn bg-[#68707a] hover:bg-[#30343a] text-white">Login</button>
                         </Link>
                 }
 
