@@ -5,7 +5,7 @@ const Carts = ({ cards }) => {
     const { id, img, name, price, short_description } = cards;
 
     const handleDetailButton = () => {
-        console.log('hi')
+        
     }
 
     return (

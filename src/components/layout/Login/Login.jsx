@@ -1,14 +1,18 @@
 import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../../Providers/AuthProviderContext";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
 
+    const notify = () => toast("You're logged in🥰🥰");
+
     const { logInUser } = useContext(AuthContext)
 
-    const location = useLocation(); 
+    const location = useLocation();
 
-    const navigate = useNavigate(); 
+    const navigate = useNavigate();
 
     const handleLogin = e => {
         e.preventDefault()
@@ -16,14 +20,15 @@ const Login = () => {
         const email = form.get('email');
         const password = form.get('password')
         logInUser(email, password)
-        .then(result => {
-            console.log(result.user); 
-
-            navigate(location?.state ? location.state : '/')
-        })
-        .catch(error => {
-            console.error(error)
-        })
+            .then(result => {
+                console.log(result.user);
+                notify();
+                <ToastContainer />
+                navigate(location?.state ? location.state : '/')
+            })
+            .catch(error => {
+                console.error(error)
+            })
     }
 
     return (
