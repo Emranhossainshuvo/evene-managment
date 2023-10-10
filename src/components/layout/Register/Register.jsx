@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Register = () => {
     const notify = () => toast("Successfully registered🥰🥰");
 
-    const { createUser } = useContext(AuthContext)
+    const { createUser, handleGoogleSignIn } = useContext(AuthContext)
 
     const navigate = useNavigate();
 
@@ -21,16 +21,16 @@ const Register = () => {
         console.log(email, password, name)
         // create user
         createUser(email, password)
-        .then(result => {
-            notify(); 
-            <ToastContainer />
-            console.log(result.user)
-           navigate(location?.state ? location.state : '/')
-        })
-        .catch(error => {
-            console.error(error)
-        })
- 
+            .then(result => {
+                notify();
+                <ToastContainer />
+                console.log(result.user)
+                navigate(location?.state ? location.state : '/')
+            })
+            .catch(error => {
+                console.error(error)
+            })
+
     }
 
     return (
@@ -67,6 +67,9 @@ const Register = () => {
                         </div>
                     </form>
                     <p className="pb-2 text-center">Already have an account? <Link className="text-blue-600 underline" to="/login">Login</Link> </p>
+                    <div className="container mx-7 mb-3">
+                        <button onClick={handleGoogleSignIn} className="btn btn-neutral w-10/12 mx-auto">Google</button>
+                    </div>
                 </div>
             </div>
         </div>

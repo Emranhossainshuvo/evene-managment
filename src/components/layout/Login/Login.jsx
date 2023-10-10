@@ -59,6 +59,9 @@ const Login = () => {
                         </div>
                     </form>
                     <p className="pb-2 text-center">Don't have an account? <Link className="text-blue-600 underline" to="/register">Register</Link> </p>
+                    <div className="container mx-7 mb-3">
+                        <button className="btn btn-neutral w-10/12 mx-auto">Google</button>
+                    </div>
                 </div>
             </div>
         </div>

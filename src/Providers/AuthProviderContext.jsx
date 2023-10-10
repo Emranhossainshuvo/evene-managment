@@ -1,11 +1,16 @@
 import { createContext, useEffect, useState } from "react";
-import { createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut } from "firebase/auth";
+import { GoogleAuthProvider, createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut } from "firebase/auth";
 import app from "../firebase/firebase.config";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export const AuthContext = createContext(null);
 
 const auth = getAuth(app);
+
+
+const provider = new GoogleAuthProvider();
+const notify = () => toast("Done");
 
 const AuthProviderContext = ({ children }) => {
 
@@ -25,9 +30,20 @@ const AuthProviderContext = ({ children }) => {
 
     const logOut = () => {
         setLoading(true)
-        return signOut(auth); 
+        return signOut(auth);
     }
 
+    const handleGoogleSignIn = () => {
+        signInWithPopup(auth, provider)
+            .then(result => {
+                console.log(result.user)
+                notify();
+                <ToastContainer />
+            })
+            .catch(error => {
+                console.error(error)
+            })
+    }
 
     useEffect(() => {
         const unSubscribe = onAuthStateChanged(auth, currentUser => {
@@ -41,10 +57,11 @@ const AuthProviderContext = ({ children }) => {
 
     const authInfo = {
         user,
-        createUser, 
+        createUser,
         loading,
-        logInUser, 
-        logOut
+        logInUser,
+        logOut,
+        handleGoogleSignIn
     }
 
     return (
