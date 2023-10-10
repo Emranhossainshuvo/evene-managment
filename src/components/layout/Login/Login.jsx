@@ -8,7 +8,7 @@ const Login = () => {
 
     const notify = () => toast("You're logged in🥰🥰");
 
-    const { logInUser } = useContext(AuthContext)
+    const { logInUser, handleGoogleSignIn } = useContext(AuthContext)
 
     const location = useLocation();
 
@@ -60,7 +60,7 @@ const Login = () => {
                     </form>
                     <p className="pb-2 text-center">Don't have an account? <Link className="text-blue-600 underline" to="/register">Register</Link> </p>
                     <div className="container mx-7 mb-3">
-                        <button className="btn btn-neutral w-10/12 mx-auto">Google</button>
+                        <button onClick={handleGoogleSignIn} className="btn btn-neutral w-10/12 mx-auto">Google</button>
                     </div>
                 </div>
             </div>
