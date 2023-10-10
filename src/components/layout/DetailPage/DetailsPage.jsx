@@ -6,7 +6,7 @@ const DetailsPage = () => {
     
     const card = useLoaderData();
 
-    console.log(card)
+    // console.log(card)
 
     return (
 
