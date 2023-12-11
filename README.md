@@ -19,3 +19,6 @@
 ## Answer for question 5 
 
 - The answer will be C because :- The forEach loop counts the truthy values (non-zero) in the nums array, which are 1, 2, and 3, adding up to a count of "3."
+
+## Live site link: 
+https://yoga-and-fitness-96e13.web.app/
